@@ -1,0 +1,29 @@
+/*
+ * Se importan las fuentes
+ */
+
+@font-face {
+    font-family: "Roboto-Bold-Condensed";
+    src: url(../fonts/Roboto-BoldCondensed.ttf);
+}
+@font-face {
+    font-family: "Roboto-Condensed";
+    src: url(../fonts/Roboto-Condensed.ttf);
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url(../fonts/Pacifico.ttf);
+}

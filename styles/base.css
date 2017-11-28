@@ -1,0 +1,376 @@
+
+/********************
+ * Estilo Generales *
+ ********************/
+
+	div, footer {
+		display: block;
+		float: left;
+		width: 100%;
+		position: relative;
+	}
+
+	div.oscuro {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	div.quienes {
+		height: 738px;
+		background-color: rgba(255,255,255,0.1);
+	}
+
+	h1, h2, h3, h4, h5, h6, p, a, span, body {
+		font-family: "Roboto-Bold-Condensed";
+	}
+	
+	div.rutas {
+		height: 738px;
+		background-color: white;
+ 		padding: 41px 0px;
+	}
+	
+	div.galeria {
+		height: auto;
+		background-color: #d1d1d1;
+	}
+	
+	div.talleres {
+		height: auto;
+	}
+	
+	div.contacto {
+		height: auto;
+		overflow: hidden;
+	}
+
+/********************
+ * Estilo Menu      *
+ ********************/
+
+	ul {
+		float: right;
+		margin-bottom: 0px !important;
+	}
+
+	li {
+		float: left;
+	}
+
+	li > a {
+		padding: 20px 10px;
+		font-family: "Roboto-Condensed";
+		color: #FFFFFF;
+		font-size: 20px;
+	}
+
+	.nav.navbar-nav.menu li > a:hover {
+		background-color: rgba(255,255,255,0.2);
+		color: #ED980F;
+	}
+
+/********************
+ * Estilo Home      *
+ ********************/
+
+	div.logo {
+		height: 150px;
+		padding: 25% 0px;
+	}
+
+	img.fondo {
+		position: absolute;
+	}
+
+	img.logo {
+		margin: auto;
+		display: block;
+		width: 35%;
+	}
+
+/********************
+ * Estilo quienes   *
+ ********************/
+
+	div.titulo {
+		width: 40%;
+		height: 100px;
+		padding: 25% 0px;
+	}
+
+	div.titulo h1 {
+		color: #ffffff;
+		width: 45%;
+		margin: 0px auto;
+		border-left: 12px solid #ED980F;
+		padding-left: 20px;
+		font-size: 75px;
+		line-height: 64px;
+	}
+	
+	div.titulo h1 > p {
+		font-family: "Roboto-Thin";
+		font-size: 52px;
+	}
+
+	div.mision {
+		width: 60%;
+		height: 100px;
+		color: #ffffff;
+	}
+
+	div.mision h1 {
+		font-size: 30px;
+	}
+
+	div.mision p {
+		font-family: "Roboto-Thin";
+		font-size: 18px;
+    	line-height: 26px;
+	}
+
+
+/********************
+ * Estilo rutas     *
+ ********************/
+
+	.rutas .rutas-logo,
+	.rutas .rutas-img,
+	.rutas .rutas-h1 {
+		width: 50%;	
+		height: 370px;	
+	}
+
+	.rutas .rutas-logo {
+		background-image: url("../img/logo-rutas.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-y: center;
+	}
+
+	.rutas .rutas-img .rutas-img-contain {
+		border: 5px solid #ffffff;
+	}
+	
+	div#rutas01 {
+		background-image: url("../img/rutas1.png");
+		background-size: contain;
+		background-repeat: no-repeat;		
+	}
+	
+	div#rutas02 {
+		background-image: url("../img/rutas2.png");
+		background-size: contain;
+		background-repeat: no-repeat;		
+	}
+	
+	div#rutas03 {
+		background-image: url("../img/rutas3.png");
+		background-size: contain;
+		background-repeat: no-repeat;	
+	}
+	
+	div#rutas04 {
+		background-image: url("../img/rutas4.png");
+		background-size: contain;
+		background-repeat: no-repeat;		
+	}
+					
+	div#rutas05 {
+		background-image: url("../img/rutas5.png");
+		background-size: contain;
+		background-repeat: no-repeat;		
+	}
+	
+	div#rutas06 {
+		background-image: url("../img/rutas6.png");
+		background-size: contain;
+		background-repeat: no-repeat;		
+	}
+
+	div#rutas07 {
+		background-image: url("../img/rutas7.png");
+		background-size: contain;
+		background-repeat: no-repeat;		
+	}
+	
+	div#rutas08 {
+		background-image: url("../img/rutas8.png");
+		background-size: contain;
+		background-repeat: no-repeat;		
+	}
+
+	.rutas .rutas-h1 {
+		background-color: green;	
+	}
+
+	.rutas .rutas-h1 .border {
+	    border: 1px solid #ffffff;
+		margin: 20% auto;
+		float: none;
+	    width: 320px;
+	    height: 320px
+	}
+
+	.rutas .rutas-h1 .h1 {
+		background-color: green;
+		width: auto;
+		font-size: 50px;
+		color: #ffffff;
+		float: left;
+		bottom: 60%;
+		left: 10%;
+	}
+
+	.rutas .rutas-h1 .h1 a {
+	    font-family: "Pacifico";
+	    color: #ffffff;
+	}	
+
+/********************
+ * Estilo galeria    *
+ ********************/
+
+	div.galeriatitulo {
+		width: 100%;
+	}
+	
+	div.galeriatitulo h1 {
+		color: #ffffff;
+		width: 90%;
+		margin: 0px auto;
+		border-left: 12px solid #ED980F;
+		padding-left: 20px;
+		font-size: 75px;
+		line-height: 64px;
+	}
+	
+	div.galeriatitulo h1 > p {
+		font-family: "Roboto-Thin";
+		font-size: 52px;
+	}
+
+/********************
+ * Estilo talleres   *
+ ********************/
+
+ 	div.tallerestitulo,
+	div.talleres-opciones {
+		height: auto;
+		width: 80%;
+	}
+
+ 	div.tallerestitulo h1 {
+		color: gray;
+		width: 90%;
+		margin: 0px auto;
+		border-left: 12px solid #ED980F;
+		padding-left: 20px;
+		font-size: 75px;
+		line-height: 64px;
+	}
+	
+	div.tallerestitulo h1 p {
+		font-family: "Roboto-Thin";
+		font-size: 52px;
+	}
+
+	div.talleres-opciones {
+	    text-align: right;
+	    width: 94%;
+	    margin: 0px 38px;
+	    border-bottom: 5px solid green;
+	}
+
+	div.talleres-opciones p {
+		color: #000000;
+	}
+/********************
+ * Estilo contacto   *
+ ********************/
+
+	div.contactotitulo {
+		width: 40%;
+		height: auto;
+	}
+	
+	div.contactotitulo h1 {
+		color: #ffffff;
+		width: 45%;
+		margin: 0px auto 40px;
+		border-left: 12px solid #ED980F;
+		padding-left: 20px;
+		font-size: 75px;
+		line-height: 64px;
+	}
+	
+	div.contactotitulo h1 > p {
+		font-family: "Roboto-Thin";
+		font-size: 52px;
+	}
+
+	div.contactotitulo h2, div.contactotitulo p {
+		color: #ffffff;
+		width: 45%;
+		margin: 0px auto;
+	}
+
+	div.contacto .oscuro {
+		padding: 100px 0px;
+	}
+	
+	div.contacto .fondo {
+		max-width: 100%;
+		min-height: auto;
+		zoom: 1.3;
+	}
+
+	div.contacto form {
+		display: block;
+	    float: left;
+	    position: relative;
+	    background-color: rgba(255,255,255,0.4);
+	    width: auto;
+	    padding: 40px 0px 20px;
+	}
+
+	div.contacto form input{
+		width: 80%;
+		margin: 10px 0px 0px 60px;
+	    border-radius: 14px;
+		background-color: rgba(0,0,0,0.4);
+		border: none;
+		height: 30px;
+	}
+
+	div.contacto form input#mensaje{
+		height: 120px
+	}
+
+	div.contacto form div.button-continer {
+	    height: auto;
+	    padding: 36px 0px;
+	    text-align: center;
+	}
+
+	div.contacto form .button{
+		background-color: #ED980F;
+		border: none;
+	    color: #ffffff;
+	    padding: 12px 10px;
+	    margin: 10px auto;
+	}
+
+/********************
+* Estilo footer     *
+********************/
+
+	footer {
+		height: 100px;
+		background-color: orange;
+	}
+
+	footer h1 {
+		margin: 0px auto;
+		width: 20%;
+		padding: 2% 0px;		
+	}
