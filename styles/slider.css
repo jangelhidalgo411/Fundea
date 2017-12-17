@@ -99,9 +99,9 @@
   -ms-user-select: none;
   user-select: none;
 }
-.csslider > .navigation > div {
-  /*margin-left: -100%;*/
-}
+/*.csslider > .navigation > div {
+  margin-left: -100%;
+}*/
 .csslider > .navigation label {
   position: relative;
   display: inline-block;
@@ -260,7 +260,7 @@
     z-index: 10;
     overflow: hidden;
     width: 100%;
-    background: rgba(0, 0, 0, 0.35); */
+    background: rgba(0, 0, 0, 0.35);
 }
 
 #bg:before {
